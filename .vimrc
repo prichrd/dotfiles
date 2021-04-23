@@ -75,9 +75,6 @@ autocmd FileType matlab setlocal foldmethod=indent foldlevel=20
 autocmd FileType matlab nmap <Leader>r <Plug>(matlab-run)
 autocmd FileType matlab nmap <Leader>d <Plug>(matlab-describe)
 
-" Section: JSON
-autocmd FileType matlab setlocal foldmethod=syntax
-
 " Section: Markdown
 Plug 'masukomi/vim-markdown-folding'
 
